@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ggplot on A minimal Hugo website</title>
+    <link>/tags/ggplot/</link>
+    <description>Recent content in Ggplot on A minimal Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/ggplot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Add linear regression to ggplot2</title>
+      <link>/ggplot2/add-linear-regression-to-ggplot2/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/ggplot2/add-linear-regression-to-ggplot2/</guid>
+      <description>Add a simple linear regression line to ggplot scatter plot:
+plot &amp;lt;- ggplot(data = z,aes(x = xx,y = yy)) +geom_point(aes(colour = var),alpha = val) +geom_smooth(method = &amp;quot;lm&amp;quot;,colour = &amp;quot;black&amp;quot;,se = FALSE)</description>
+    </item>
+    
+    <item>
+      <title>Date time abbreviations for date_labels in ggplot</title>
+      <link>/ggplot2/date-time-abbreviations-for-date-labels-in-ggplot/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/ggplot2/date-time-abbreviations-for-date-labels-in-ggplot/</guid>
+      <description>You can see all the abbrevation codes for date time display in ggplot at the following link HERE.
+CodeMeaning%Ssecond (00-59)%Mminute (00-59)%lhour, in 12-hour clock (1-12)%Ihour, in 12-hour clock (01-12)%Hhour, in 24-hour clock (01-24)%aday of the week, abbreviated (Mon-Sun)%Aday of the week, full (Monday-Sunday)%eday of the month (1-31)%dday of the month (01-31)%mmonth, numeric (01-12)%bmonth, abbreviated (Jan-Dec)%Bmonth, full (January-December)%yyear, without century (00-99)%Yyear, with century (0000-9999)</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Packages on A minimal Hugo website</title>
+    <link>/tags/packages/</link>
+    <description>Recent content in Packages on A minimal Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/packages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R packages for formatting tables</title>
+      <link>/post/2019/02/27/r-packages-for-formatting-tables/</link>
+      <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/02/27/r-packages-for-formatting-tables/</guid>
+      <description>Here is a list of R packages that affect table formatting in the console or output PDF, HTML, DOCX:
+xtablekablekableExtraformattablehuxtabletables</description>
+    </item>
+    
+  </channel>
+</rss>

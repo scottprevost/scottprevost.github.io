@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on A minimal Hugo website</title>
+    <link>/</link>
+    <description>Recent content in Home on A minimal Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Discard changes not staged for commit</title>
+      <link>/git/discard-changes-not-staged-for-commit/</link>
+      <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/git/discard-changes-not-staged-for-commit/</guid>
+      <description>This command will discard all changes not staged or staged for commit that have not yet been committed.
+git reset --hard</description>
+    </item>
+    
+    <item>
+      <title>R packages for formatting tables</title>
+      <link>/post/2019/02/27/r-packages-for-formatting-tables/</link>
+      <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/02/27/r-packages-for-formatting-tables/</guid>
+      <description>Here is a list of R packages that affect table formatting in the console or output PDF, HTML, DOCX:
+xtablekablekableExtraformattablehuxtabletables</description>
+    </item>
+    
+    <item>
+      <title>Add linear regression to ggplot2</title>
+      <link>/ggplot2/add-linear-regression-to-ggplot2/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/ggplot2/add-linear-regression-to-ggplot2/</guid>
+      <description>Add a simple linear regression line to ggplot scatter plot:
+plot &amp;lt;- ggplot(data = z,aes(x = xx,y = yy)) +geom_point(aes(colour = var),alpha = val) +geom_smooth(method = &amp;quot;lm&amp;quot;,colour = &amp;quot;black&amp;quot;,se = FALSE)</description>
+    </item>
+    
+    <item>
+      <title>Date time abbreviations for date_labels in ggplot</title>
+      <link>/ggplot2/date-time-abbreviations-for-date-labels-in-ggplot/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/ggplot2/date-time-abbreviations-for-date-labels-in-ggplot/</guid>
+      <description>You can see all the abbrevation codes for date time display in ggplot at the following link HERE.
+CodeMeaning%Ssecond (00-59)%Mminute (00-59)%lhour, in 12-hour clock (1-12)%Ihour, in 12-hour clock (01-12)%Hhour, in 24-hour clock (01-24)%aday of the week, abbreviated (Mon-Sun)%Aday of the week, full (Monday-Sunday)%eday of the month (1-31)%dday of the month (01-31)%mmonth, numeric (01-12)%bmonth, abbreviated (Jan-Dec)%Bmonth, full (January-December)%yyear, without century (00-99)%Yyear, with century (0000-9999)</description>
+    </item>
+    
+    <item>
+      <title>Split dataframe into list by row number</title>
+      <link>/post/2019/02/25/split-dataframe-into-list-by-row-number/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/02/25/split-dataframe-into-list-by-row-number/</guid>
+      <description>To create a list containing each row of a dataframe…
+# split(data, by = seq(nrow(data)))</description>
+    </item>
+    
+    <item>
+      <title>Another Note on A blogdown Tutorial</title>
+      <link>/note/2017/06/14/another-note/</link>
+      <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/note/2017/06/14/another-note/</guid>
+      <description>I just discovered an awesome tutorial on blogdown written by Alison. I have to admit this is the best blogdown tutorial I have seen so far.</description>
+    </item>
+    
+    <item>
+      <title>A Quick Note on Two Beautiful Websites</title>
+      <link>/note/2017/06/13/a-quick-note/</link>
+      <pubDate>Tue, 13 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/note/2017/06/13/a-quick-note/</guid>
+      <description>To me, the two most impressive websites based on blogdown are:
+ Rob J Hyndman&amp;rsquo;s personal website. Live Free or Dichotomize by Lucy and Nick et al.  I&amp;rsquo;m sure there will be more.</description>
+    </item>
+    
+    <item>
+      <title>A Plain Markdown Post</title>
+      <link>/post/2016/02/14/a-plain-markdown-post/</link>
+      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2016/02/14/a-plain-markdown-post/</guid>
+      <description>This sample post is mainly for blogdown users. If you do not use blogdown, you can skip the first section.
+1. Markdown or R Markdown This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
+ You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/post/2015/07/23/hello-r-markdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015/07/23/hello-r-markdown/</guid>
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+    <item>
+      <title>Lorem Ipsum</title>
+      <link>/post/2015/07/23/lorem-ipsum/</link>
+      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2015/07/23/lorem-ipsum/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Quisque mattis volutpat lorem vitae feugiat.</description>
+    </item>
+    
+    <item>
+      <title>About Hugo XMin</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>XMin is the first Hugo theme I have designed. The original reason that I wrote it was I needed a minimal example of Hugo themes when I was writing the blogdown book. Basically I wanted a simple theme that supports a navigation menu, a home page, other single pages, lists of pages, blog posts, categories, tags, and RSS. That is all. Nothing fancy. In terms of CSS and JavaScript, I really want to keep them minimal.</description>
+    </item>
+    
+  </channel>
+</rss>
