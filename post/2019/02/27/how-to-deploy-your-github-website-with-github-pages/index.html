@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ggplot2s | A minimal Hugo website</title>
+    <title>How to deploy your GitHub website with GitHub Pages | A minimal Hugo website</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
     
@@ -29,26 +29,30 @@
     <hr/>
     </nav>
 
+<div class="article-meta">
+<h1><span class="title">How to deploy your GitHub website with GitHub Pages</span></h1>
+<h2 class="author">Scott Prevost</h2>
+<h2 class="date">2019/02/27</h2>
+</div>
 
-
-<h1>Ggplot2s</h1>
-
-
-
-
+<main>
+<p>Simply follow the instructions on <a href="https://pages.github.com/">GitHub Pages link</a> which is equivalent to:</p>
 <ul>
-  
-  <li>
-    <span class="date">2019/02/26</span>
-    <a href="/ggplot2/add-linear-regression-to-ggplot2/">Add linear regression to ggplot2</a>
-  </li>
-  
-  <li>
-    <span class="date">2019/02/25</span>
-    <a href="/ggplot2/date-time-abbreviations-for-date-labels-in-ggplot/">Date time abbreviations for date_labels in ggplot</a>
-  </li>
-  
+<li>Create a new empty repository following this EXACT naming convention:
+<ul>
+<li>username.github.io</li>
+<li>Where username == your user name on github</li>
+<li>Ex. if my user name is Scott then the repository should be named Scott.github.io</li>
+</ul></li>
+<li>Do not initialize a README file</li>
+<li>If you are using blogdown then create a git repository in the public folder
+<ul>
+<li>Commit everything in the public folder and push to your newly created repository</li>
+</ul></li>
 </ul>
+<p>DONE!</p>
+
+</main>
 
   <footer>
   <script src="//yihui.name/js/math-code.js"></script>

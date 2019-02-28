@@ -6,10 +6,40 @@
     <description>Recent content in Home on A minimal Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Keep only complete rows with no NA values</title>
+      <link>/data.table/keep-only-complete-rows-with-no-na-values/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/data.table/keep-only-complete-rows-with-no-na-values/</guid>
+      <description>Keep only complete rows (omit any row with NA values)
+dt &amp;lt;- dt[complete.cases(dt)]dt &amp;lt;- dt %&amp;gt;%.[complete.cases(.)]</description>
+    </item>
+    
+    <item>
+      <title>Remove rows with all NA</title>
+      <link>/data.table/remove-rows-with-all-na/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/data.table/remove-rows-with-all-na/</guid>
+      <description>Remove rows with all NA but keep any row with at least 1 observation:
+dt &amp;lt;- dt[rowSums(is.na(x)) &amp;lt;= 1]dt &amp;lt;- dt %&amp;gt;%.[rowSums(is.na(.)) &amp;lt;= 1]</description>
+    </item>
+    
+    <item>
+      <title>Split a data.table into a list by row number</title>
+      <link>/data.table/split-a-data-table-into-a-list-by-row-number/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/data.table/split-a-data-table-into-a-list-by-row-number/</guid>
+      <description>Split a data.table into a list by row. Each row element then becomes an element in the list.
+dt &amp;lt;- dt[, row_id := .I]listy &amp;lt;- split(dt,dt$row_id)</description>
+    </item>
     
     <item>
       <title>Discard changes not staged for commit</title>
@@ -19,6 +49,16 @@
       <guid>/git/discard-changes-not-staged-for-commit/</guid>
       <description>This command will discard all changes not staged or staged for commit that have not yet been committed.
 git reset --hard</description>
+    </item>
+    
+    <item>
+      <title>How to deploy your GitHub website with GitHub Pages</title>
+      <link>/post/2019/02/27/how-to-deploy-your-github-website-with-github-pages/</link>
+      <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/02/27/how-to-deploy-your-github-website-with-github-pages/</guid>
+      <description>Simply follow the instructions on GitHub Pages link which is equivalent to:
+Create a new empty repository following this EXACT naming convention:username.github.ioWhere username == your user name on githubEx. if my user name is Scott then the repository should be named Scott.github.ioDo not initialize a README fileIf you are using blogdown then create a git repository in the public folderCommit everything in the public folder and push to your newly created repositoryDONE!</description>
     </item>
     
     <item>
@@ -49,16 +89,6 @@ plot &amp;lt;- ggplot(data = z,aes(x = xx,y = yy)) +geom_point(aes(colour = v
       <guid>/ggplot2/date-time-abbreviations-for-date-labels-in-ggplot/</guid>
       <description>You can see all the abbrevation codes for date time display in ggplot at the following link HERE.
 CodeMeaning%Ssecond (00-59)%Mminute (00-59)%lhour, in 12-hour clock (1-12)%Ihour, in 12-hour clock (01-12)%Hhour, in 24-hour clock (01-24)%aday of the week, abbreviated (Mon-Sun)%Aday of the week, full (Monday-Sunday)%eday of the month (1-31)%dday of the month (01-31)%mmonth, numeric (01-12)%bmonth, abbreviated (Jan-Dec)%Bmonth, full (January-December)%yyear, without century (00-99)%Yyear, with century (0000-9999)</description>
-    </item>
-    
-    <item>
-      <title>Split dataframe into list by row number</title>
-      <link>/post/2019/02/25/split-dataframe-into-list-by-row-number/</link>
-      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2019/02/25/split-dataframe-into-list-by-row-number/</guid>
-      <description>To create a list containing each row of a dataframe…
-# split(data, by = seq(nrow(data)))</description>
     </item>
     
     <item>

@@ -21,18 +21,9 @@
     </item>
     
     <item>
-      <title>Data.frame</title>
-      <link>/tags/data.frame/</link>
-      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/data.frame/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Data.table</title>
       <link>/tags/data.table/</link>
-      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/data.table/</guid>
       <description></description>
@@ -44,6 +35,15 @@
       <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/ggplot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>/tags/github/</link>
+      <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/github/</guid>
       <description></description>
     </item>
     

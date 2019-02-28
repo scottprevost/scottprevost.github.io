@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>How to deploy your GitHub website with GitHub Pages</title>
+      <link>/post/2019/02/27/how-to-deploy-your-github-website-with-github-pages/</link>
+      <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/02/27/how-to-deploy-your-github-website-with-github-pages/</guid>
+      <description>Simply follow the instructions on GitHub Pages link which is equivalent to:
+Create a new empty repository following this EXACT naming convention:username.github.ioWhere username == your user name on githubEx. if my user name is Scott then the repository should be named Scott.github.ioDo not initialize a README fileIf you are using blogdown then create a git repository in the public folderCommit everything in the public folder and push to your newly created repositoryDONE!</description>
+    </item>
+    
+    <item>
       <title>R packages for formatting tables</title>
       <link>/post/2019/02/27/r-packages-for-formatting-tables/</link>
       <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
@@ -19,16 +29,6 @@
       <guid>/post/2019/02/27/r-packages-for-formatting-tables/</guid>
       <description>Here is a list of R packages that affect table formatting in the console or output PDF, HTML, DOCX:
 xtablekablekableExtraformattablehuxtabletables</description>
-    </item>
-    
-    <item>
-      <title>Split dataframe into list by row number</title>
-      <link>/post/2019/02/25/split-dataframe-into-list-by-row-number/</link>
-      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2019/02/25/split-dataframe-into-list-by-row-number/</guid>
-      <description>To create a list containing each row of a dataframe…
-# split(data, by = seq(nrow(data)))</description>
     </item>
     
     <item>

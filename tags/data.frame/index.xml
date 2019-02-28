@@ -13,10 +13,10 @@
     
     <item>
       <title>Split dataframe into list by row number</title>
-      <link>/post/2019/02/25/split-dataframe-into-list-by-row-number/</link>
+      <link>/data.table/split-dataframe-into-list-by-row-number/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/02/25/split-dataframe-into-list-by-row-number/</guid>
+      <guid>/data.table/split-dataframe-into-list-by-row-number/</guid>
       <description>To create a list containing each row of a dataframe…
 # split(data, by = seq(nrow(data)))</description>
     </item>

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ggplot2s | A minimal Hugo website</title>
+    <title>Remove rows with all NA | A minimal Hugo website</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
     
@@ -29,26 +29,20 @@
     <hr/>
     </nav>
 
+<div class="article-meta">
+<h1><span class="title">Remove rows with all NA</span></h1>
+<h2 class="author">Scott Prevost</h2>
+<h2 class="date">2019/02/28</h2>
+</div>
 
+<main>
+<p>Remove rows with all <code>NA</code> but keep any row with at least 1 observation:</p>
+<pre><code>dt &lt;- dt[rowSums(is.na(x)) &lt;= 1]
 
-<h1>Ggplot2s</h1>
+dt &lt;- dt %&gt;%
+  .[rowSums(is.na(.)) &lt;= 1]</code></pre>
 
-
-
-
-<ul>
-  
-  <li>
-    <span class="date">2019/02/26</span>
-    <a href="/ggplot2/add-linear-regression-to-ggplot2/">Add linear regression to ggplot2</a>
-  </li>
-  
-  <li>
-    <span class="date">2019/02/25</span>
-    <a href="/ggplot2/date-time-abbreviations-for-date-labels-in-ggplot/">Date time abbreviations for date_labels in ggplot</a>
-  </li>
-  
-</ul>
+</main>
 
   <footer>
   <script src="//yihui.name/js/math-code.js"></script>
