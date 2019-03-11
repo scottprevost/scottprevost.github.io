@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Add geom_hline to ggplot2 legend | A minimal Hugo website</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/data.table/">data.table</a></li>
+      
+      <li><a href="/ggplot2/">ggplot2</a></li>
+      
+      <li><a href="/git/">git</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Add geom_hline to ggplot2 legend</span></h1>
+<h2 class="author">Scott Prevost</h2>
+<h2 class="date">2019/03/11</h2>
+</div>
+
+<main>
+<pre class="r"><code>library(pander)
+library(tidyverse)
+library(lubridate)
+
+a = data.frame(x_val = seq(from = ymd_hms(&quot;2050-01-01 00:00:00&quot;),
+                           to = ymd_hms(&quot;2050-12-31 23:59:59&quot;),
+                           by = &quot;1 day&quot;),
+               y_val = 1:365)
+
+plt = ggplot(data = a) +
+  geom_line(aes(x = x_val,
+                y = y_val,
+                colour = &quot;Variable&quot;), # if there are multiple variables then change that to column heading
+            size = 0.1) +
+  geom_hline(aes(yintercept = 32,
+                 linetype = &quot;Legend&quot;)) +
+  scale_x_datetime(name = &quot;&quot;,
+                   date_labels = &quot;%b&quot;,
+                   date_breaks = &quot;1 month&quot;) +
+  theme(legend.position = &quot;bottom&quot;) +
+  scale_colour_manual(name = &quot;&quot;,
+                      values = &quot;red&quot;) +
+  scale_linetype_manual(name = &quot;&quot;,
+                        values = &quot;dashed&quot;)
+plt</code></pre>
+<p><img src="/ggplot2/2019-03-11-add-geom-hline-to-ggplot2-legend_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+
+</main>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+  <hr/>
+  &copy; <a href="https://scottprevost.github.io/">Scott Prevost</a> | <a href="https://github.com/scottprevost">Github</a> | <a href="https://www.linkedin.com/in/scott-prevost-p-eng-cem-cmvp-2073656b">LinkedIn</a>
+  
+  </footer>
+  </body>
+</html>
+

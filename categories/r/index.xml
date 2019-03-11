@@ -6,10 +6,28 @@
     <description>Recent content in R on A minimal Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Add geom_hline to ggplot2 legend</title>
+      <link>/ggplot2/add-geom-hline-to-ggplot2-legend/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/ggplot2/add-geom-hline-to-ggplot2-legend/</guid>
+      <description>library(pander)library(tidyverse)library(lubridate)a = data.frame(x_val = seq(from = ymd_hms(&amp;quot;2050-01-01 00:00:00&amp;quot;),to = ymd_hms(&amp;quot;2050-12-31 23:59:59&amp;quot;),by = &amp;quot;1 day&amp;quot;),y_val = 1:365)plt = ggplot(data = a) +geom_line(aes(x = x_val,y = y_val,colour = &amp;quot;Variable&amp;quot;), # if there are multiple variables then change that to column headingsize = 0.1) +geom_hline(aes(yintercept = 32,linetype = &amp;quot;Legend&amp;quot;)) +scale_x_datetime(name = &amp;quot;&amp;quot;,date_labels = &amp;quot;%b&amp;quot;,date_breaks = &amp;quot;1 month&amp;quot;) +theme(legend.</description>
+    </item>
+    
+    <item>
+      <title>Add subscripts and superscripts to ggplot axis titles</title>
+      <link>/ggplot2/add-subscripts-and-superscripts-to-ggplot-axis-titles/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/ggplot2/add-subscripts-and-superscripts-to-ggplot-axis-titles/</guid>
+      <description>library(ggplot2)library(scales)library(lubridate)df = data.frame(start_dt = seq(from = ymd_hms(&amp;quot;2000-01-01 00:00:00&amp;quot;),to = ymd_hms(&amp;quot; 2000-01-31 23:00:00&amp;quot;),by = &amp;quot;1 hour&amp;quot;),temp = c(1:744))plt = ggplot(data = df) +geom_line(aes(x = start_dt,y = temp)) + scale_x_datetime(name = bquote(&amp;quot;Date&amp;quot;*&amp;quot;&amp;quot;[123]),date_breaks = &amp;quot;1 week&amp;quot;,date_labels = &amp;quot;%b-%d&amp;quot;) +scale_y_continuous(name = bquote(&amp;quot;Temperature (&amp;quot;*&amp;quot;&amp;quot;^o*&amp;quot;F)&amp;quot;),labels = comma,limits = c(0, 800),breaks = seq(0, 800, 100))plt</description>
+    </item>
     
     <item>
       <title>Keep only complete rows with no NA values</title>
@@ -38,7 +56,18 @@ dt &amp;lt;- dt[rowSums(is.na(x)) &amp;lt;= 1]dt &amp;lt;- dt %&amp;gt;%.[rowS
       
       <guid>/data.table/split-a-data-table-into-a-list-by-row-number/</guid>
       <description>Split a data.table into a list by row. Each row element then becomes an element in the list.
-dt &amp;lt;- dt[, row_id := .I]listy &amp;lt;- split(dt,dt$row_id)</description>
+dt &amp;lt;- dt[, row_id := .I]listy &amp;lt;- split(dt,dt$row_id)or this may be simpler as it eliminates the requirement to create an additional column holding the row numbers.
+listy &amp;lt;- split(dt, seq(nrow(dt)))</description>
+    </item>
+    
+    <item>
+      <title>Test if all values in column are NA</title>
+      <link>/data.table/test-if-all-values-in-column-are-na/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/data.table/test-if-all-values-in-column-are-na/</guid>
+      <description>Test if all values in a column are NA.
+all(is.na(dt$column)) # TRUEall(is.na(c(NA, 0, NA))) # FALSELinks:https://stackoverflow.com/questions/9417391/how-to-check-if-entire-vector-has-no-values-other-than-na-or-nan-in-r</description>
     </item>
     
     <item>

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Split a data.table into a list by row number | A minimal Hugo website</title>
+    <title>Add subscripts and superscripts to ggplot axis titles | A minimal Hugo website</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
     
@@ -30,21 +30,34 @@
     </nav>
 
 <div class="article-meta">
-<h1><span class="title">Split a data.table into a list by row number</span></h1>
+<h1><span class="title">Add subscripts and superscripts to ggplot axis titles</span></h1>
 <h2 class="author">Scott Prevost</h2>
-<h2 class="date">2019/02/28</h2>
+<h2 class="date">2019/03/11</h2>
 </div>
 
 <main>
-<p>Split a <code>data.table</code> into a list by row. Each row element then becomes an element in the list.</p>
-<pre><code>dt &lt;- dt[, row_id := .I]
+<pre class="r"><code>library(ggplot2)
+library(scales)
+library(lubridate)
 
-listy &lt;- split(dt,
-               dt$row_id)</code></pre>
-<p>or this may be simpler as it eliminates the requirement to create an additional column holding the row numbers.</p>
-<pre><code>
-listy &lt;- split(dt, seq(nrow(dt)))
-</code></pre>
+df = data.frame(start_dt = seq(from = ymd_hms(&quot;2000-01-01 00:00:00&quot;),
+                               to = ymd_hms(&quot; 2000-01-31 23:00:00&quot;),
+                               by = &quot;1 hour&quot;),
+                temp = c(1:744))
+
+plt = ggplot(data = df) +
+  geom_line(aes(x = start_dt,
+                y = temp)) + 
+  scale_x_datetime(name = bquote(&quot;Date&quot;*&quot;&quot;[123]),
+                   date_breaks = &quot;1 week&quot;,
+                   date_labels = &quot;%b-%d&quot;) +
+  scale_y_continuous(name = bquote(&quot;Temperature (&quot;*&quot;&quot;^o*&quot;F)&quot;),
+                     labels = comma,
+                     limits = c(0, 800),
+                     breaks = seq(0, 800, 100))
+
+plt</code></pre>
+<p><img src="/ggplot2/2019-03-11-add-subscripts-and-superscripts-to-ggplot-axis-titles_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
 
 </main>
 

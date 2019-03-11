@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Data.frame | A minimal Hugo website</title>
+    <title>Test if all values in column are NA | A minimal Hugo website</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
     
@@ -19,6 +19,8 @@
       
       <li><a href="/tags/">Tags</a></li>
       
+      <li><a href="/data.table/">data.table</a></li>
+      
       <li><a href="/ggplot2/">ggplot2</a></li>
       
       <li><a href="/git/">git</a></li>
@@ -27,21 +29,23 @@
     <hr/>
     </nav>
 
+<div class="article-meta">
+<h1><span class="title">Test if all values in column are NA</span></h1>
+<h2 class="author">Scott Prevost</h2>
+<h2 class="date">2019/02/28</h2>
+</div>
 
+<main>
+<p>Test if all values in a column are <code>NA</code>.</p>
+<pre><code>
+all(is.na(dt$column))    # TRUE
 
-<h1>Data.frame</h1>
+all(is.na(c(NA, 0, NA))) # FALSE
+</code></pre>
+<p>Links:
+<a href="https://stackoverflow.com/questions/9417391/how-to-check-if-entire-vector-has-no-values-other-than-na-or-nan-in-r">https://stackoverflow.com/questions/9417391/how-to-check-if-entire-vector-has-no-values-other-than-na-or-nan-in-r</a></p>
 
-
-
-
-<ul>
-  
-  <li>
-    <span class="date">2019/02/25</span>
-    <a href="/data.table/split-dataframe-into-list-by-row-number/">Split dataframe into list by row number</a>
-  </li>
-  
-</ul>
+</main>
 
   <footer>
   <script src="//yihui.name/js/math-code.js"></script>

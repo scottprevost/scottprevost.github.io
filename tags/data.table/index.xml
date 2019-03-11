@@ -38,7 +38,18 @@ dt &amp;lt;- dt[rowSums(is.na(x)) &amp;lt;= 1]dt &amp;lt;- dt %&amp;gt;%.[rowS
       
       <guid>/data.table/split-a-data-table-into-a-list-by-row-number/</guid>
       <description>Split a data.table into a list by row. Each row element then becomes an element in the list.
-dt &amp;lt;- dt[, row_id := .I]listy &amp;lt;- split(dt,dt$row_id)</description>
+dt &amp;lt;- dt[, row_id := .I]listy &amp;lt;- split(dt,dt$row_id)or this may be simpler as it eliminates the requirement to create an additional column holding the row numbers.
+listy &amp;lt;- split(dt, seq(nrow(dt)))</description>
+    </item>
+    
+    <item>
+      <title>Test if all values in column are NA</title>
+      <link>/data.table/test-if-all-values-in-column-are-na/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/data.table/test-if-all-values-in-column-are-na/</guid>
+      <description>Test if all values in a column are NA.
+all(is.na(dt$column)) # TRUEall(is.na(c(NA, 0, NA))) # FALSELinks:https://stackoverflow.com/questions/9417391/how-to-check-if-entire-vector-has-no-values-other-than-na-or-nan-in-r</description>
     </item>
     
   </channel>
