@@ -6,10 +6,20 @@
     <description>Recent content in Home on A minimal Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>insert basic image into latex</title>
+      <link>/latex/insert-basic-image-into-latex/</link>
+      <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/latex/insert-basic-image-into-latex/</guid>
+      <description>Insert a single image into Latex.
+\begin{figure}[H]\centering\includegraphics[width=\textwidth]{../images/report/filename}\vspace{0.1cm}\caption{}\label{}\end{figure}</description>
+    </item>
     
     <item>
       <title>Add geom_hline to ggplot2 legend</title>

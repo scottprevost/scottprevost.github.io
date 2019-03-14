@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/latex/insert-basic-image-into-latex/</loc>
+    <lastmod>2019-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/ggplot2/add-geom-hline-to-ggplot2-legend/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
@@ -121,6 +126,12 @@
   </url>
   
   <url>
+    <loc>/tags/float/</loc>
+    <lastmod>2019-03-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/ggplot/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -152,7 +163,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -163,13 +174,13 @@
   
   <url>
     <loc>/latex/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/latex/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
