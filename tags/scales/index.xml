@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scales on A minimal Hugo website</title>
+    <link>/tags/scales/</link>
+    <description>Recent content in Scales on A minimal Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/scales/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Add subscripts and superscripts to ggplot axis titles</title>
+      <link>/ggplot2/add-subscripts-and-superscripts-to-ggplot-axis-titles/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/ggplot2/add-subscripts-and-superscripts-to-ggplot-axis-titles/</guid>
+      <description>Temperature superscript
+bquote(&amp;quot;Temperature (&amp;quot; * &amp;quot;&amp;quot; ^o * &amp;quot;F)&amp;quot;)Natural gas superscript
+bquote(&amp;quot;Natural gas (&amp;quot; * &amp;quot;m&amp;quot; ^3 * &amp;quot;)&amp;quot;)Carbon dioxide subscript
+bquote(&amp;quot;CO&amp;quot; * &amp;quot;&amp;quot; [2])</description>
+    </item>
+    
+  </channel>
+</rss>

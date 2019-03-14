@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>/latex/underline-words-and-sentences-in-latex/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/data.table/keep-only-complete-rows-with-no-na-values/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
@@ -98,13 +103,13 @@
   </url>
   
   <url>
-    <loc>/tags/data.table/</loc>
+    <loc>/data.table/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/data.table/</loc>
+    <loc>/tags/data.table/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -128,6 +133,12 @@
   </url>
   
   <url>
+    <loc>/git/</loc>
+    <lastmod>2019-02-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/git/</loc>
     <lastmod>2019-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -140,12 +151,6 @@
   </url>
   
   <url>
-    <loc>/git/</loc>
-    <lastmod>2019-02-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
@@ -153,6 +158,18 @@
   <url>
     <loc>/categories/hugo/</loc>
     <lastmod>2016-02-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/latex/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/latex/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -223,6 +240,12 @@
   </url>
   
   <url>
+    <loc>/tags/scales/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
     <lastmod>2016-02-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -231,6 +254,12 @@
   <url>
     <loc>/tags/tutorial/</loc>
     <lastmod>2017-06-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/underline/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
