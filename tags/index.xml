@@ -23,7 +23,7 @@
     <item>
       <title>Data.table</title>
       <link>/tags/data.table/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 23 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/data.table/</guid>
       <description></description>
@@ -71,6 +71,15 @@
       <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
       
       <guid>/tags/mathjax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Na.locf</title>
+      <link>/tags/na.locf/</link>
+      <pubDate>Fri, 15 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/na.locf/</guid>
       <description></description>
     </item>
     
@@ -129,6 +138,15 @@
     </item>
     
     <item>
+      <title>Reshape</title>
+      <link>/tags/reshape/</link>
+      <pubDate>Sat, 23 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/reshape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Scales</title>
       <link>/tags/scales/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
@@ -152,6 +170,15 @@
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/underline/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zoo</title>
+      <link>/tags/zoo/</link>
+      <pubDate>Fri, 15 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/zoo/</guid>
       <description></description>
     </item>
     

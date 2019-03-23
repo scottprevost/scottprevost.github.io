@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ggplot | A minimal Hugo website</title>
+    <title>Using melt and dcast in data.table | A minimal Hugo website</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
     
@@ -33,36 +33,27 @@
     <hr/>
     </nav>
 
+<div class="article-meta">
+<h1><span class="title">Using melt and dcast in data.table</span></h1>
+<h2 class="author">Scott Prevost</h2>
+<h2 class="date">2019/03/23</h2>
+</div>
 
+<main>
+<pre><code>melt(data,
+     id.vars = c(&quot;will_not_change&quot;)                      # Columns will remain the same, constant identifiers that all variables have associated values for
+     measure.vars = c(&quot;converted_to_variable_value&quot;))    # Columns names go into `variable` column and values go into `values` columns
+     
 
-<h1>Ggplot</h1>
+# Optional -&gt; specify column names
 
+melt(data,
+     id.vars = c(&quot;will_not_change&quot;)
+     measure.vars = c(&quot;converted_to_variable_value&quot;),
+     variable.name = &quot;name_of_variable_column&quot;,
+     value.name = &quot;name_of_value_column&quot;)</code></pre>
 
-
-
-<ul>
-  
-  <li>
-    <span class="date">2019/03/11</span>
-    <a href="/ggplot2/add-geom-hline-to-ggplot2-legend/">Add geom_hline to ggplot2 legend</a>
-  </li>
-  
-  <li>
-    <span class="date">2019/03/11</span>
-    <a href="/ggplot2/add-subscripts-and-superscripts-to-ggplot-axis-titles/">Add subscripts and superscripts to ggplot axis titles</a>
-  </li>
-  
-  <li>
-    <span class="date">2019/02/26</span>
-    <a href="/ggplot2/add-linear-regression-to-ggplot2/">Add linear regression to ggplot2</a>
-  </li>
-  
-  <li>
-    <span class="date">2019/02/25</span>
-    <a href="/ggplot2/date-time-abbreviations-for-date-labels-in-ggplot/">Date time abbreviations for date_labels in ggplot</a>
-  </li>
-  
-</ul>
+</main>
 
   <footer>
   <script src="//yihui.name/js/math-code.js"></script>

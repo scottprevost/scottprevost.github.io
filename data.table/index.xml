@@ -6,10 +6,19 @@
     <description>Recent content in Data.table on A minimal Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/data.table/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using melt and dcast in data.table</title>
+      <link>/data.table/using-melt-and-dcast-in-data-table/</link>
+      <pubDate>Sat, 23 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/data.table/using-melt-and-dcast-in-data-table/</guid>
+      <description>melt(data,id.vars = c(&amp;quot;will_not_change&amp;quot;) # Columns will remain the same, constant identifiers that all variables have associated values formeasure.vars = c(&amp;quot;converted_to_variable_value&amp;quot;)) # Columns names go into `variable` column and values go into `values` columns# Optional -&amp;gt; specify column namesmelt(data,id.vars = c(&amp;quot;will_not_change&amp;quot;)measure.vars = c(&amp;quot;converted_to_variable_value&amp;quot;),variable.name = &amp;quot;name_of_variable_column&amp;quot;,value.name = &amp;quot;name_of_value_column&amp;quot;)</description>
+    </item>
     
     <item>
       <title>Keep only complete rows with no NA values</title>

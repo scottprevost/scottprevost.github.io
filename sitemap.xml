@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/data.table/using-melt-and-dcast-in-data-table/</loc>
+    <lastmod>2019-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/zoo/fill-single-column-with-na-locf/</loc>
+    <lastmod>2019-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/latex/insert-basic-image-into-latex/</loc>
     <lastmod>2019-03-14T00:00:00+00:00</lastmod>
   </url>
@@ -109,13 +119,13 @@
   
   <url>
     <loc>/data.table/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/data.table/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -163,7 +173,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-03-14T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -193,6 +203,12 @@
   <url>
     <loc>/tags/mathjax/</loc>
     <lastmod>2016-02-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/na.locf/</loc>
+    <lastmod>2019-03-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -228,7 +244,7 @@
   
   <url>
     <loc>/categories/r/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -247,6 +263,12 @@
   <url>
     <loc>/tags/regression/</loc>
     <lastmod>2019-02-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/reshape/</loc>
+    <lastmod>2019-03-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -271,6 +293,18 @@
   <url>
     <loc>/tags/underline/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/zoo/</loc>
+    <lastmod>2019-03-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/zoo/</loc>
+    <lastmod>2019-03-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

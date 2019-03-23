@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zoo on A minimal Hugo website</title>
+    <link>/zoo/</link>
+    <description>Recent content in Zoo on A minimal Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/zoo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>fill single column with na.locf</title>
+      <link>/zoo/fill-single-column-with-na-locf/</link>
+      <pubDate>Fri, 15 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/zoo/fill-single-column-with-na-locf/</guid>
+      <description>Forward or back fill single column in dataframe or data.table
+data$column &amp;lt;- na.locf(data$column, ...)</description>
+    </item>
+    
+  </channel>
+</rss>
