@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/ggplot2/consistent-colour-mapping-of-categorical-variables-in-ggplot2/</loc>
+    <lastmod>2019-03-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/data.table/count-number-of-observations-in-grouping/</loc>
+    <lastmod>2019-03-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/windows/create-file-with-no-name-but-specify-extension/</loc>
+    <lastmod>2019-03-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/latex/latex-links/</loc>
+    <lastmod>2019-03-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/data.table/rowsums-specific-columns-in-dataframe/</loc>
+    <lastmod>2019-03-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/data.table/using-melt-and-dcast-in-data-table/</loc>
     <lastmod>2019-03-23T00:00:00+00:00</lastmod>
   </url>
@@ -13,22 +38,12 @@
   </url>
   
   <url>
-    <loc>/latex/insert-basic-image-into-latex/</loc>
-    <lastmod>2019-03-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/ggplot2/add-geom-hline-to-ggplot2-legend/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/ggplot2/add-subscripts-and-superscripts-to-ggplot-axis-titles/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/latex/underline-words-and-sentences-in-latex/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -119,13 +134,13 @@
   
   <url>
     <loc>/data.table/</loc>
-    <lastmod>2019-03-23T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/data.table/</loc>
-    <lastmod>2019-03-23T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -136,20 +151,14 @@
   </url>
   
   <url>
-    <loc>/tags/float/</loc>
-    <lastmod>2019-03-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/ggplot/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/ggplot2/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -173,7 +182,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-03-23T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -184,13 +193,13 @@
   
   <url>
     <loc>/latex/</loc>
-    <lastmod>2019-03-14T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/latex/</loc>
-    <lastmod>2019-03-14T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -244,7 +253,7 @@
   
   <url>
     <loc>/categories/r/</loc>
-    <lastmod>2019-03-23T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -291,8 +300,14 @@
   </url>
   
   <url>
-    <loc>/tags/underline/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <loc>/windows/</loc>
+    <lastmod>2019-03-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/windows/</loc>
+    <lastmod>2019-03-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on A minimal Hugo website</title>
+    <title>Categories on A blogdown website</title>
     <link>/categories/</link>
-    <description>Recent content in Categories on A minimal Hugo website</description>
+    <description>Recent content in Categories on A blogdown website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -40,7 +40,7 @@
     <item>
       <title>Latex</title>
       <link>/categories/latex/</link>
-      <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/categories/latex/</guid>
       <description></description>
@@ -49,9 +49,18 @@
     <item>
       <title>R</title>
       <link>/categories/r/</link>
-      <pubDate>Sat, 23 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>/categories/windows/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/windows/</guid>
       <description></description>
     </item>
     

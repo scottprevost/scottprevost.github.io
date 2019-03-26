@@ -1,34 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Latex on A minimal Hugo website</title>
+    <title>Latex on A blogdown website</title>
     <link>/categories/latex/</link>
-    <description>Recent content in Latex on A minimal Hugo website</description>
+    <description>Recent content in Latex on A blogdown website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/latex/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>insert basic image into latex</title>
-      <link>/latex/insert-basic-image-into-latex/</link>
-      <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
+      <title>latex links</title>
+      <link>/latex/latex-links/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/latex/insert-basic-image-into-latex/</guid>
-      <description>Insert a single image into Latex.
+      <guid>/latex/latex-links/</guid>
+      <description>Various links to direct Latex examples and some inline examples
+Underline words and sentences
+Existing commands for font sizes
+Modify colour of font
+Bracket sizes and types in math mode
 \begin{figure}[H]\centering\includegraphics[width=\textwidth]{../images/report/filename}\vspace{0.1cm}\caption{}\label{}\end{figure}</description>
-    </item>
-    
-    <item>
-      <title>underline words and sentences in latex</title>
-      <link>/latex/underline-words-and-sentences-in-latex/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/latex/underline-words-and-sentences-in-latex/</guid>
-      <description>\usepackage[normalem]{ulem}\uline{this will be underlined!}See this post for a further explanation on benefits of this approach for underlining.
-There are several different ways to underline in Latex.</description>
     </item>
     
   </channel>

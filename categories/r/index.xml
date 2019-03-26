@@ -1,15 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R on A minimal Hugo website</title>
+    <title>R on A blogdown website</title>
     <link>/categories/r/</link>
-    <description>Recent content in R on A minimal Hugo website</description>
+    <description>Recent content in R on A blogdown website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Consistent colour mapping of categorical variables in ggplot2</title>
+      <link>/ggplot2/consistent-colour-mapping-of-categorical-variables-in-ggplot2/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/ggplot2/consistent-colour-mapping-of-categorical-variables-in-ggplot2/</guid>
+      <description>Check out this Stack Overflow post</description>
+    </item>
+    
+    <item>
+      <title>count number of observations in grouping</title>
+      <link>/data.table/count-number-of-observations-in-grouping/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/data.table/count-number-of-observations-in-grouping/</guid>
+      <description>Create a column that has the number of observations (count of rows) when performing a group with by.
+dt %&amp;lt;&amp;gt;%.[, .(col1 = sum(col2, na.rm = TRUE),counter = .N),by = .(grp_col)]See this Stack Overflow question</description>
+    </item>
+    
+    <item>
+      <title>rowSums specific columns in dataframe</title>
+      <link>/data.table/rowsums-specific-columns-in-dataframe/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/data.table/rowsums-specific-columns-in-dataframe/</guid>
+      <description>For summing multiple rows in columns to create a new column without typing (col1 + col2 + col3 +….). It also addresses NA values and removes them.
+# Approach 1dt %&amp;lt;&amp;gt;%.[, newcol1 := rowSums(.SD, na.rm = TRUE),.SDcols = c(&amp;quot;column_names&amp;quot;)] %&amp;gt;% .[, newcol2 := rowSums(.SD, na.rm = TRUE),.SDcols = 4:6]# Approach 2dt %&amp;lt;&amp;gt;%.[, newcol := Reduce(`+`, .SD),.SDcols = c(&amp;quot;column_names&amp;quot;)]See this Stack Overflow post for the example.</description>
+    </item>
     
     <item>
       <title>Using melt and dcast in data.table</title>

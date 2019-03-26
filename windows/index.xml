@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on A blogdown website</title>
+    <link>/windows/</link>
+    <description>Recent content in Windows on A blogdown website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>create file with no name but specify extension</title>
+      <link>/windows/create-file-with-no-name-but-specify-extension/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/windows/create-file-with-no-name-but-specify-extension/</guid>
+      <description>Create a file with an empty (blank) name but with an extension.
+Open a new notepad fileFile -&amp;gt; Save AsSave as type: All types (.)Give it the extension -&amp;gt; .gitignore -&amp;gt; .RprofileCheck out this Stack Overflow post</description>
+    </item>
+    
+  </channel>
+</rss>

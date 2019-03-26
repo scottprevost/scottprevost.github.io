@@ -1,25 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Underline on A minimal Hugo website</title>
-    <link>/tags/underline/</link>
-    <description>Recent content in Underline on A minimal Hugo website</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/underline/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>underline words and sentences in latex</title>
-      <link>/latex/underline-words-and-sentences-in-latex/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/latex/underline-words-and-sentences-in-latex/</guid>
-      <description>\usepackage[normalem]{ulem}\uline{this will be underlined!}See this post for a further explanation on benefits of this approach for underlining.
-There are several different ways to underline in Latex.</description>
-    </item>
-    
-  </channel>
-</rss>

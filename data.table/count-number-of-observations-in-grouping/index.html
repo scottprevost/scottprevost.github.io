@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>underline words and sentences in latex | A minimal Hugo website</title>
+    <title>count number of observations in grouping | A blogdown website</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
     
@@ -29,22 +29,27 @@
       
       <li><a href="/latex/">latex</a></li>
       
+      <li><a href="/windows/">ms windows</a></li>
+      
     </ul>
     <hr/>
     </nav>
 
 <div class="article-meta">
-<h1><span class="title">underline words and sentences in latex</span></h1>
+<h1><span class="title">count number of observations in grouping</span></h1>
 <h2 class="author">Scott Prevost</h2>
-<h2 class="date">2019/03/11</h2>
+<h2 class="date">2019/03/25</h2>
 </div>
 
 <main>
-<pre><code>\usepackage[normalem]{ulem}
-
-\uline{this will be underlined!}</code></pre>
-<p>See <a href="https://tex.stackexchange.com/questions/13377/how-can-i-underline-a-single-word-with-latex">this post</a> for a further explanation on benefits of this approach for underlining.</p>
-<p>There are several different ways to underline in Latex.</p>
+<p>Create a column that has the number of observations (count of rows) when performing a group with <code>by</code>.</p>
+<pre><code>
+dt %&lt;&gt;%
+  .[, .(col1 = sum(col2, na.rm = TRUE),
+        counter = .N),
+    by = .(grp_col)]
+</code></pre>
+<p>See this <a href="https://stackoverflow.com/questions/19869145/count-number-of-records-and-generate-row-number-within-each-group-in-a-data-tabl">Stack Overflow question</a></p>
 
 </main>
 

@@ -1,15 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on A minimal Hugo website</title>
+    <title>Home on A blogdown website</title>
     <link>/</link>
-    <description>Recent content in Home on A minimal Hugo website</description>
+    <description>Recent content in Home on A blogdown website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Consistent colour mapping of categorical variables in ggplot2</title>
+      <link>/ggplot2/consistent-colour-mapping-of-categorical-variables-in-ggplot2/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/ggplot2/consistent-colour-mapping-of-categorical-variables-in-ggplot2/</guid>
+      <description>Check out this Stack Overflow post</description>
+    </item>
+    
+    <item>
+      <title>count number of observations in grouping</title>
+      <link>/data.table/count-number-of-observations-in-grouping/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/data.table/count-number-of-observations-in-grouping/</guid>
+      <description>Create a column that has the number of observations (count of rows) when performing a group with by.
+dt %&amp;lt;&amp;gt;%.[, .(col1 = sum(col2, na.rm = TRUE),counter = .N),by = .(grp_col)]See this Stack Overflow question</description>
+    </item>
+    
+    <item>
+      <title>create file with no name but specify extension</title>
+      <link>/windows/create-file-with-no-name-but-specify-extension/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/windows/create-file-with-no-name-but-specify-extension/</guid>
+      <description>Create a file with an empty (blank) name but with an extension.
+Open a new notepad fileFile -&amp;gt; Save AsSave as type: All types (.)Give it the extension -&amp;gt; .gitignore -&amp;gt; .RprofileCheck out this Stack Overflow post</description>
+    </item>
+    
+    <item>
+      <title>latex links</title>
+      <link>/latex/latex-links/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/latex/latex-links/</guid>
+      <description>Various links to direct Latex examples and some inline examples
+Underline words and sentences
+Existing commands for font sizes
+Modify colour of font
+Bracket sizes and types in math mode
+\begin{figure}[H]\centering\includegraphics[width=\textwidth]{../images/report/filename}\vspace{0.1cm}\caption{}\label{}\end{figure}</description>
+    </item>
+    
+    <item>
+      <title>rowSums specific columns in dataframe</title>
+      <link>/data.table/rowsums-specific-columns-in-dataframe/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/data.table/rowsums-specific-columns-in-dataframe/</guid>
+      <description>For summing multiple rows in columns to create a new column without typing (col1 + col2 + col3 +….). It also addresses NA values and removes them.
+# Approach 1dt %&amp;lt;&amp;gt;%.[, newcol1 := rowSums(.SD, na.rm = TRUE),.SDcols = c(&amp;quot;column_names&amp;quot;)] %&amp;gt;% .[, newcol2 := rowSums(.SD, na.rm = TRUE),.SDcols = 4:6]# Approach 2dt %&amp;lt;&amp;gt;%.[, newcol := Reduce(`+`, .SD),.SDcols = c(&amp;quot;column_names&amp;quot;)]See this Stack Overflow post for the example.</description>
+    </item>
     
     <item>
       <title>Using melt and dcast in data.table</title>
@@ -31,16 +84,6 @@ data$column &amp;lt;- na.locf(data$column, ...)</description>
     </item>
     
     <item>
-      <title>insert basic image into latex</title>
-      <link>/latex/insert-basic-image-into-latex/</link>
-      <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/latex/insert-basic-image-into-latex/</guid>
-      <description>Insert a single image into Latex.
-\begin{figure}[H]\centering\includegraphics[width=\textwidth]{../images/report/filename}\vspace{0.1cm}\caption{}\label{}\end{figure}</description>
-    </item>
-    
-    <item>
       <title>Add geom_hline to ggplot2 legend</title>
       <link>/ggplot2/add-geom-hline-to-ggplot2-legend/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
@@ -59,16 +102,6 @@ data$column &amp;lt;- na.locf(data$column, ...)</description>
 bquote(&amp;quot;Temperature (&amp;quot; * &amp;quot;&amp;quot; ^o * &amp;quot;F)&amp;quot;)Natural gas superscript
 bquote(&amp;quot;Natural gas (&amp;quot; * &amp;quot;m&amp;quot; ^3 * &amp;quot;)&amp;quot;)Carbon dioxide subscript
 bquote(&amp;quot;CO&amp;quot; * &amp;quot;&amp;quot; [2])</description>
-    </item>
-    
-    <item>
-      <title>underline words and sentences in latex</title>
-      <link>/latex/underline-words-and-sentences-in-latex/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/latex/underline-words-and-sentences-in-latex/</guid>
-      <description>\usepackage[normalem]{ulem}\uline{this will be underlined!}See this post for a further explanation on benefits of this approach for underlining.
-There are several different ways to underline in Latex.</description>
     </item>
     
     <item>
